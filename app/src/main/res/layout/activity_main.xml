@@ -10,8 +10,160 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.tugas01.xiirpl5032.aplikasibookinghallroomnew.MainActivity">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Aplikasi Pemesanan Hall Room"
+        android:textColor="#2323d4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ff" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNama" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="No. KTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNomor"
+            android:inputType="number"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Jumlah Orang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ea3838" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupJumlah">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dibawah 100"
+            android:id="@+id/radioButtonBawah"
+            android:textColor="#2b2fad" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 - 300"
+            android:id="@+id/radioButtonTengah"
+            android:textColor="#2b2fad" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300 - 800"
+            android:id="@+id/radioButtonAtas"
+            android:textColor="#2b2fad" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diatas 800"
+            android:id="@+id/radioButtonAtasB"
+            android:textColor="#2b2fad" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fasilitas Tambahan"
+        android:id="@+id/textViewFata"
+        android:textColor="#ea3838" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makanan dan Minuman"
+        android:id="@+id/checkBoxMM"
+        android:checked="false"
+        android:textColor="#2b2fad" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karaoke Set"
+        android:id="@+id/checkBoxKS"
+        android:checked="false"
+        android:textColor="#2b2fad" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cindera Mata"
+        android:id="@+id/checkBoxCM"
+        android:checked="false"
+        android:textColor="#2b2fad" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekstra Audio"
+        android:id="@+id/checkBoxEA"
+        android:checked="false"
+        android:textColor="#2b2fad" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seperangkat Laptop"
+        android:id="@+id/checkBoxSL"
+        android:checked="false"
+        android:textColor="#2b2fad" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Jenis dan Kelas Ruang"
+        android:id="@+id/textView"
+        android:textColor="#ea3838" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/jenis"
+        android:id="@+id/spinnerJenis" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerKelas" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgbtn"
+        android:textColor="@android:color/white"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:text="OK"
+        android:id="@+id/buttonOK" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:id="@+id/textViewHasil"
+        android:textColor="#3248ee" />
 </LinearLayout>
