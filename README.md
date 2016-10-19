@@ -1,10 +1,10 @@
 # Aplikasi-Booking-Hall-Room-New
 
-- Keterangan
+KETERANGAN
 
 Apikasi Booking Hall Room adalah aplikasi yang bertemakan pemesanan gedung (ruang). Form isian pada aplikasi ini adalah Nama (diisi dengan nama pemesan minimal 3 karakter), Nomor (diisi dengan no. ktp harus sama dengan 16 karakter), radio button (digunakan untuk memilih jumlah orang yang akan hadir), checkbox (digunakan untuk memilih apa saja fasilitas tambahan yang dipilih oleh pemesan), Spinner (Digunakan untuk memilih jenis dan kelas ruang). Apabila diklik button akan memunculkan hasil di bawah button tersebut. Akan muncul error apabila nama tidak diisi, nama kurang dari 3 karakter, no.ktp tidak diisi, no.ktp tidak samadengan 16 karakter. Apabila tidak memilih radio button pada hasil pilihan jumlah orang akan muncul "Anda Belum Memilih Jumlah Orang" dan apabila tidak memilih checkbox fasilitas tambahan akan mpada fasilitas yang dipilih akan muncul "Tidaak ada pada pilihan".
 
-- Screenshoot
+SCREENSHOOT
 
 ![screenshot_2016-10-16-13-46-22-56](https://cloud.githubusercontent.com/assets/22499352/19415901/ffc68cdc-93a9-11e6-8ac9-6a29ee759589.png)
 ![screenshot_2016-10-16-13-46-33-23](https://cloud.githubusercontent.com/assets/22499352/19415903/ffd14e56-93a9-11e6-944c-ac784e270344.png)
@@ -15,7 +15,7 @@ Apikasi Booking Hall Room adalah aplikasi yang bertemakan pemesanan gedung (ruan
 ![screenshot_2016-10-16-13-48-21-98](https://cloud.githubusercontent.com/assets/22499352/19415908/005ef0b2-93aa-11e6-9dc0-c5c759f35f41.png)
 ![screenshot_2016-10-16-13-49-01-90](https://cloud.githubusercontent.com/assets/22499352/19415909/0063dc8a-93aa-11e6-9b26-36fac9a9c6a5.png)
 
-- Aplikasi
+APLIKASI
 
 Ling APK : https://drive.google.com/open?id=0BxV_4h0EYl5_bzRMODdRT1FQbVE
 
